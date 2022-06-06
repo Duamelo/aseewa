@@ -304,3 +304,7 @@ footer.page-footer {
   /* height: 300px; */
   width: 0%;
 }
+.activite-banner{
+  position: relative;
+  width: 100%;
+}
