@@ -1,0 +1,306 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: rgb(76, 69, 69);
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+  .nav{
+    color: black;
+    font-size:larger;
+  }
+  .nav ul li a {
+    color: black;
+    font-weight: bolder;
+  }
+}
+
+
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+
+
+.nav{
+  background-color: #546e7a;
+  color: white;
+  font-size:larger;
+}
+
+@media only screen and (min-width : 992px) {
+  nav.nav ul li a {
+    color: white;
+    font-weight: bolder;
+  }
+}
+
+
+
+.rejoindre{
+  background-color: #546e7a;
+}
+
+
+.description{
+  font-weight: bolder;
+}
+
+.about{
+  position: relative;
+  background-image: url("logo.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 320px;
+  width: 100%;
+  bottom: 30px;
+}
+
+
+.about-description{
+  position: relative;
+  margin-top: 50px;
+}
+
+
+.me {
+  position: relative;
+  margin-top: 50px;
+}
+
+.home-activities-section{
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.equipe {
+  position: relative;
+  margin-top: 100px;
+}
+
+.detail-projet{
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+
+.book-icon{
+  position: relative;
+  font-size: 70px;
+}
+
+.publication-content{
+  position: relative;
+  margin-top: 50px;
+}
+
+.pub-tabs{
+  margin-bottom: 50px;
+}
+
+
+.activite-button{
+  color: white;
+}
+
+
+.hr-width{
+  width: 15%;
+}
+
+.page-footer{
+  background-color: #546e7a;
+}
+
+
+.topnav{
+  position: relative;
+  height: 60px;
+}
+
+.logo{
+  position: relative;
+  width: 100%;
+}
+
+.logo-nav{
+  position: relative;
+  width: 10%;
+  height: 80px;
+  bottom: 10px;
+}
+
+.know-more{
+  background-color: #546e7a;
+}
+
+
+.know-more:hover {
+  background-color: #20a21c;
+}
+
+
+.tabs .tab a {
+  color: #198d1e;
+}
+
+
+.tabs .tab a.active {
+  color: #198d1e;
+  background-color: transparent;
+}
+
+.otp{
+  position: absolute;
+  margin-left: 70px;
+  height: auto;
+  width: 5%;
+  top: 0px;
+}
+
+.title{
+  color: #198d1e;
+}
+
+.langue{
+  position: relative;
+  float: right;
+  top: 12px;
+  right: 30px;
+  background-color: #546e7a;
+
+}
+
+.langue:hover{
+  background-color:#008421 ;
+}
+
+.drop-trad{
+
+  color: #198d1e;
+}
+
+.drop-trad li a{
+  color: #198d1e;
+}
+
+
+.parten{
+  /*background-color: black;*/
+  height: 220px;
+  width: 100%;
+}
+
+
+.second-part{
+  position: relative;
+  width: 180%;
+  padding: 0px 20px 0px 20px;
+}
+
+
+.second-part1{
+  position: relative;
+  width: 300%;
+  top: 20px;
+}
+
+.second-part2{
+  position: relative;
+  width: 100%;
+  top: 15px;
+}
+
+
+.associate{
+  position: relative;
+  /*background-color: black;*/
+  height: 400px;
+}
+
+.logo-footer{
+  width: 50%;
+}
+
+.para{
+  position: relative;
+  height: 400px;
+  width: 100%;
+}
+
+.onglet{
+  color: #008421;
+  font-weight: bolder;
+}
+.read-more{
+  color: #008421;
+}
+
+.title-article{
+  font-style: italic;
+}
+
+.photo{
+  position: relative;
+  width: 100%;
+}
+.osse{
+  width: 100%;
+}
+.yaulande{
+  height: 200px;
+}
+.banner-equipe{
+  position: relative;
+  /* height: 300px; */
+  width: 0%;
+}
